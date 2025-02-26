@@ -6,7 +6,7 @@ const router = require("./router/auth-router");
 const connectDB = require("./utils/db")
 
 var corsOptions = {
-    origin:  ["https://mindguardai.vercel.app","http://localhost:5173"],
+    origin:  ["https://mindguardai.vercel.app","http://localhost:5173/login"],
     method: "GET, POST, PUT, PATCH, HEAD",
     credential: true
 }
